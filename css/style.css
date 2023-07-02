@@ -6,7 +6,7 @@
 .login-item { color: rgb(41, 143, 217) !important; }
 .navigation-list-items li a { font-size: 10pt; font-weight: 700; }
 @media screen and (max-width: 768px) {
-  .navigation-list-items { background-color: black; border-top: 1px solid white; position: absolute; left: 0px; right: 0px; top: 100px; height: 400px; row-gap: 20px; }
+  .navigation-list-items {display: none; background-color: black; border-top: 1px solid white; position: absolute; left: 0px; right: 0px; top: 100px; height: 400px; row-gap: 20px; }
 }
 .hero-section-sub-heading { font-size: 14pt; font-weight: 800; }
 .hero-section-heading { font-size: 29pt; line-height: 120.5%; font-weight: 900 !important; text-transform: capitalize !important; color: black !important; }
