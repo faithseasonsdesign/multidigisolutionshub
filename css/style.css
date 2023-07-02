@@ -1,0 +1,154 @@
+* { font-family: Poppins, sans-serif; padding: 0px; margin: 0px; text-decoration: none; list-style: none; }
+.logo { line-height: 10pt !important; }
+.navigation-list-items { column-gap: 20px; }
+.navigation-parent { background-color: rgb(23, 23, 49); }
+.navigation-child { height: 100px; }
+.login-item { color: rgb(41, 143, 217) !important; }
+.navigation-list-items li a { font-size: 10pt; font-weight: 700; }
+@media screen and (max-width: 768px) {
+  .navigation-list-items { background-color: black; border-top: 1px solid white; position: absolute; left: 0px; right: 0px; top: 100px; height: 400px; row-gap: 20px; }
+}
+.hero-section-sub-heading { font-size: 14pt; font-weight: 800; }
+.hero-section-heading { font-size: 29pt; line-height: 120.5%; font-weight: 900 !important; text-transform: capitalize !important; color: black !important; }
+.heading-emp { color: rgb(41, 143, 217); }
+.get-intouch-btn { border: 2px solid rgb(41, 143, 217); color: rgb(41, 143, 217); border-radius: unset; }
+.built-btn { background-color: rgb(41, 143, 217); border-radius: unset; }
+@media screen and (max-width: 768px) {
+  .hero-section-row .col-12 { text-align: center; }
+  .hero-section-row { row-gap: 20px; }
+  .logo { height: 50px; }
+}
+@media screen and (max-width: 670px) {
+  .hero-section-heading { font-size: 26pt; }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .hero-section-sub-heading{font-size:10pt}
+  .hero-section-heading { font-size: 22pt; }
+  .get-intouch-btn,.built-btn{
+    font-size:9pt;
+  }
+}
+@media screen and (max-width:379px){
+  .hero-section-heading{
+    font-size:22pt;
+  }
+  .get-intouch-btn{
+    display:none;
+  }
+}
+
+
+.about-section-card { border-radius: 13px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.11) 2px 8px 28px 0px; padding: 26px 30px; border-bottom: 5px solid rgb(41, 143, 217); }
+.about-section-row { column-gap: 0px !important; }
+.about-heading { font-weight: 800; font-size: 16pt; color: black !important; }
+.about-card-title { font-weight: 800; font-size: 14pt; color: black !important; }
+.about-card-description { font-weight: 500; font-size: 10pt; }
+@media screen and (max-width: 768px) {
+  .about-section-parent{
+    text-align:center;
+  }
+  .about-heading { font-size: 18pt; }
+  .about-card-title { font-size: 14pt; }
+}
+.trust-section-parent { background-color: rgb(0, 91, 157); }
+.trust-section-sub-heading { font-size: 14pt; font-weight: 800; }
+.trust-section-heading { font-size: 27pt; line-height: 120.5%; font-weight: 900 !important; text-transform: capitalize !important; }
+.trust-description-heading { font-size: 11pt; }
+@media screen and (max-width: 768px) {
+  .trust-section-row .col-12 { text-align: center; }
+  .trust-section-row { row-gap: 20px; }
+  .trust-section-row{
+    flex-direction:column-reverse !important;
+    row-gap:30pt;
+  }
+}
+@media screen and (max-width: 670px) {
+  .trust-section-heading { font-size: 18pt; }
+  .trust-description-heading{
+    font-size:10pt !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .trust-section-heading { font-size: 18pt; }
+  .trust-description-heading{
+    font-size:9pt;
+  }
+}
+
+
+.faq-section-sub-heading { font-size: 12pt; font-weight: 700; }
+.faq-section-heading { font-size: 20pt; line-height: 120.5%; font-weight: 900 !important; text-transform: capitalize !important; color: black !important; }
+.faq-card-title{
+  font-weight:700;
+}
+.faq-icon{
+  height:40px;
+}
+.heading-emp { color: rgb(41, 143, 217); }
+.faq-card{
+  border:none;
+  background: rgb(255, 255, 255); 
+  box-shadow: rgba(0, 0, 0, 0.11) 2px 8px 28px 0px; 
+}
+.faq-expand{
+    cursor:pointer;
+}
+.get-intouch-btn { border: 2px solid rgb(41, 143, 217); color: rgb(41, 143, 217); border-radius: unset; }
+.built-btn { background-color: rgb(41, 143, 217); border-radius: unset; }
+@media screen and (max-width: 768px) {
+  .faq-section-row .col-12 { text-align: center; }
+  .faq-section-row { row-gap: 20px; }
+  .logo { height: 50px; }
+}
+@media screen and (max-width: 670px) {
+  .faq-section-sub-heading{
+    font-size:10pt;
+  }
+  .faq-section-heading { font-size: 19pt !important; }
+  .faq-card-title{
+    font-size:10pt;
+  }
+  .faq-icon{height:30px;}
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .faq-section-sub-heading{font-size:10pt}
+  .faq-section-heading { font-size: 22pt; }
+  .get-intouch-btn,.built-btn{
+    font-size:9pt;
+  }
+}
+@media screen and (max-width:379px){
+  .faq-section-heading{
+    font-size:22pt;
+  }
+  .get-intouch-btn{
+    display:none;
+  }
+}
+
+
+.footer-parent{
+  background-color:#171731;
+}
+.footer-description{
+  font-size:10pt;
+}
+.submit-btn{
+  background-color:#298FD9;
+}
+
+@media screen and (max-width:769px){
+  .footer-services-column{
+    margin-top:30px;
+  }
+  .quick-links-footer-column{
+    margin-top:10px;
+  }
+  .logo-footer-column{
+    text-align:center;
+  }
+  .faq-description p{
+    font-size:10pt;
+    font-weight:500;
+  }
+}
